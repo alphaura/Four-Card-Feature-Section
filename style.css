@@ -99,13 +99,9 @@ h2 {
 }
 
 @media ( min-width: 376px ) {
-    
+
     .title p {
         max-width: 30rem;
-    }
-
-    h1, h2 {
-        font-size: 2rem;
     }
 }
 
