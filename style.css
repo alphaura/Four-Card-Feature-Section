@@ -98,10 +98,32 @@ h2 {
     border-radius: .4rem;
 }
 
+/* Lengthening header description box */
+
 @media ( min-width: 376px ) {
 
     .title p {
         max-width: 30rem;
+    }
+}
+
+/* Increasing header font-size */
+
+@media ( min-width: 495px ) {
+    h1, h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Diamond shape card components */
+
+@media ( min-width: 1000px ) {
+    .four-cards {
+        display: flex;
+    }
+
+    .card1, .card4 {
+        align-self: center;
     }
 }
 
