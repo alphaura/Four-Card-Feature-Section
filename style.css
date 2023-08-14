@@ -141,4 +141,14 @@ h2 {
     .card1, .card4 {
         align-self: center;
     }
+
+    .card1, .card2, .card3, .card4 {
+        transition: 1s ease-in-out;
+
+    }
+
+    .card1:hover, .card2:hover, .card3:hover, .card4:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
 }
